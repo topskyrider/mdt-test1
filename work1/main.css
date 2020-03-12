@@ -1,0 +1,172 @@
+
+h1 {
+    
+    color: brown;
+}
+#Chang{
+    color: orange;
+    text-align: center;
+}
+.chang1{
+    color: brown;
+}
+#howto{
+    color: seagreen;
+}
+
+#Youtube{
+    width: 10;
+    height: 10;
+}
+.top{
+    background-color: tomato;
+    text-align: center;
+}
+
+div{
+    text-align: center;
+}
+img{
+    width:20%;
+    
+}
+.left_page{
+    text-align: left;
+}
+#shopee{
+    width: 70%;
+    
+
+}
+#chicken-8{
+    width: 25%;
+    border-radius: 60px;
+    border:20px dotted lightgreen;
+}
+#chicken-1{
+    width: 25%;
+    border: 10px dotted lightseagreen;
+}
+#chicken-2{
+    width: 25%;
+    border: 10px dotted seagreen;
+
+}
+#chicken-3{
+    width: 25%;
+    border: 10px dotted slategray;
+}
+#chicken-4{
+    width: 25%;
+    border: 10px dotted chartreuse;
+}
+#chicken-5{
+    width: 25%;
+    border: 10px dotted honeydew;
+}
+ul{
+    font-family: Garamond, "Times New Roman", serif; 
+    font-size: 20pt;
+    font-weight: bold;
+    font-style: italic;
+}
+body{
+    background-color: gainsboro;
+}
+.flex_container{
+    display: flex;
+    flex-wrap: wrap;
+    width:100%;
+    justify-content: center;
+
+}
+.flex_container > div{
+    border: 5px solid turquoise;
+    width: 300px;
+    margin-left: 50px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+.ll{
+    width:100%;
+}
+.grid-container {
+	display: grid;
+    grid-template-columns: 10% auto 20%;
+    grid-gap: 10px; 
+}
+
+.grid-container > div{
+    border: 1px solid black;
+    font-size: 20px;
+    text-align: center;
+    background-color: salmon;
+}
+#header{
+    grid-column: 1 / span 3;
+}
+#menu{
+    grid-column: 1 / span 1;
+}
+#main{
+    grid-column: 2 /span 1;
+}
+
+#right{
+    grid-column: 3 / span 1;
+}
+#footer{
+    grid-column: 1 / span 3;
+}
+
+@media only screen and (max-width: 767px) {
+	.grid-container {
+		display: grid;
+		grid-template-columns:  20%  auto;
+		grid-gap: 10px; 
+	}
+	#header{
+		grid-column: 1 / span 2;
+	}
+	#menu{
+		grid-column: 1 / span 1;
+		text-align: left;
+	}
+	#main{
+		grid-column: 2 /span 1;
+	}
+	
+	#right{
+		grid-column: 1 / span 2;
+	}
+	#footer{
+		grid-column: 1 / span 2;
+	}
+
+@media only screen and (max-width: 500px) {
+	.grid-container {
+		display: grid;
+		grid-template-columns:  auto ;
+		grid-gap: 10px; 
+	}
+	#header{
+		grid-column: 1 / span 1;
+	}
+	#menu{
+		grid-column: 1 / span 1;
+	}
+	#main{
+		grid-column: 1 /span 1;
+	}
+	
+	#right{
+		grid-column: 1 / span 1;
+	}
+	#footer{
+		grid-column: 1 / span 1;
+	}
+}
+}
+.setcenter{
+    text-align: center;
+}
